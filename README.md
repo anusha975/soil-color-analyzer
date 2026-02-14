@@ -11,20 +11,6 @@ A machine learning–powered web application that predicts soil type and fertili
 ⚡ Fast predictions using a pre-trained Random Forest model
 📁 Project Structure
 
-Folder / File	Description
-soil_color_analyzer/	Root project directory
-app/app.py	Flask backend for image upload and prediction
-app/templates/index.html	HTML form for image upload
-app/static/style.css	Custom CSS styling for frontend UI
-app/static/logo.png	Project or institutional logo (optional)
-data/raw/	Folder for raw soil images (optional)
-data/processed/soil_color_features.csv	CSV with extracted color features
-models/soil_type_model.pkl	Trained soil type classifier model
-models/soil_label_encoder.pkl	Label encoder for encoding/decoding soil types
-notebooks/EDA_Feature_Extraction.ipynb	Jupyter notebook for data exploration and feature work
-utils/preprocessing.py	Script for extracting features from images
-requirements.txt	List of Python dependencies
-README.md	Project overview and instructions
 🚀 How to Run Locally
 
 📦 Install Dependencies
